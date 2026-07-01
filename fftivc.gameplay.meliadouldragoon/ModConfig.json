@@ -1,0 +1,47 @@
+{
+  "ModId": "fftivc.gameplay.meliadouldragoon",
+  "ModName": "Divine Dragoon Meliadoul",
+  "ModAuthor": "Zoadiark",
+  "ModVersion": "0.1.0",
+  "ModDescription": "Readapts Meliadoul\u0027s skillset from \u0022The War of the Lions\u0022 mod \u0022Tides of Fate.\u0022",
+  "ModDll": "",
+  "ModIcon": "preview.png",
+  "ModR2RManagedDll32": "",
+  "ModR2RManagedDll64": "",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "Tags": [
+    "Character"
+  ],
+  "CanUnload": null,
+  "HasExports": null,
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "fftivc.gameplay.meliadouldragoon.ReleaseMetadata.json",
+  "IgnoreRegexes": [
+    ".*\\.json",
+    "fftivc\\.gameplay\\.meliadouldragoon\\.nuspec"
+  ],
+  "IncludeRegexes": [
+    "\\.deps\\.json",
+    "\\.runtimeconfig\\.json",
+    "ModConfig\\.json",
+    "ModConfig\\.json"
+  ],
+  "PluginData": {
+    "GitHubRelease": {
+      "UserName": "Zodi-ark",
+      "RepositoryName": "Meliadoul-Divine-Dragoon",
+      "UseReleaseTag": true,
+      "AssetFileName": "fftivc.gameplay.meliadouldragoon.zip"
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "fftivc.utility.modloader"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "fft_enhanced.exe"
+  ],
+  "ProjectUrl": "https://github.com/Zodi-ark/Meliadoul-Divine-Dragoon"
+}
