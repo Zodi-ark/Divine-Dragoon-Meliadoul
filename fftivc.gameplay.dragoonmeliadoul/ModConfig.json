@@ -1,0 +1,47 @@
+{
+  "ModId": "fftivc.gameplay.dragoonmeliadoul",
+  "ModName": "Divine Dragoon Meliadoul",
+  "ModAuthor": "Zodiark",
+  "ModVersion": "0.9.7",
+  "ModDescription": "Meliadoul Tengille, devout dragoon sworn to the Father and fights as a member of the clergy. The divine dragoon\u0027s job command Templar Arts enables puissant polearm techniques while also capable of casting divine magicks.",
+  "ModDll": "",
+  "ModIcon": "preview.png",
+  "ModR2RManagedDll32": "",
+  "ModR2RManagedDll64": "",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "Tags": [
+    "Character"
+  ],
+  "CanUnload": null,
+  "HasExports": null,
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "fftivc.gameplay.dragoonmeliadoul.ReleaseMetadata.json",
+  "IgnoreRegexes": [
+    ".*\\.json",
+    "fftivc\\.gameplay\\.dragoonmeliadoul\\.nuspec"
+  ],
+  "IncludeRegexes": [
+    "\\.deps\\.json",
+    "\\.runtimeconfig\\.json",
+    "ModConfig\\.json",
+    "ModConfig\\.json"
+  ],
+  "PluginData": {
+    "GitHubRelease": {
+      "UserName": "Zodi-ark",
+      "RepositoryName": "Divine-Dragoon-Meliadoul",
+      "UseReleaseTag": true,
+      "AssetFileName": "fftivc.gameplay.dragoonmeliadoul.zip"
+    }
+  },
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "fftivc.utility.modloader"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "fft_enhanced.exe"
+  ],
+  "ProjectUrl": "https://github.com/Zodi-ark/Divine-Dragoon-Meliadoul"
+}
