@@ -24,7 +24,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
   <Version>1</Version>
   <Entries>
     <Job>
-      <Id>42</Id> <!-- Divine Knight / Divine Dragoon -->
+      <Id>42</Id> <!-- Divine Dragoon (Player)  -->
       <JobCommandId>67</JobCommandId>
 	  <InnateAbilityId1>0</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
@@ -56,7 +56,7 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <MonsterGraphic>0</MonsterGraphic>
     </Job>
     <Job>
-      <Id>47</Id> <!-- Divine Knight / Divine Dragoon -->
+      <Id>47</Id> <!-- Divine Dragoon (CPU)  -->
       <JobCommandId>66</JobCommandId>
       <InnateAbilityId1>0</InnateAbilityId1>
       <InnateAbilityId2>0</InnateAbilityId2>
@@ -87,5 +87,37 @@ For available flags, refer to https://github.com/Nenkai/fftivc.utility.modloader
       <MonsterPalette>0</MonsterPalette>
       <MonsterGraphic>0</MonsterGraphic>
     </Job>
+	<Job>
+	  <Id>66</Id> <!--  Black Mage (Undead)  -->
+	  <JobCommandId>157</JobCommandId>
+	  <InnateAbilityId1>478</InnateAbilityId1>
+	  <InnateAbilityId2>482</InnateAbilityId2>
+	  <InnateAbilityId3>484</InnateAbilityId3>
+	  <InnateAbilityId4>0</InnateAbilityId4>
+	  <EquippableItems>Perfume, Cloak, Armlet, Ring, Armguard, Shoes, Robe, Clothing, HairAdornment, Hat, Rod, Unarmed</EquippableItems>
+	  <HPGrowth>11</HPGrowth>
+	  <HPMultiplier>100</HPMultiplier>
+	  <MPGrowth>9</MPGrowth>
+	  <MPMultiplier>120</MPMultiplier>
+	  <SpeedGrowth>100</SpeedGrowth>
+	  <SpeedMultiplier>105</SpeedMultiplier>
+	  <PAGrowth>60</PAGrowth>
+	  <PAMultiplier>60</PAMultiplier>
+	  <MAGrowth>48</MAGrowth>
+	  <MAMultiplier>150</MAMultiplier>
+	  <Move>3</Move>
+	  <Jump>3</Jump>
+	  <CharacterEvasion>5</CharacterEvasion>
+	  <InnateStatus>Float, Undead</InnateStatus>
+	  <ImmuneStatus>Doom, Charm, Regen, Poison, Invisible, Reraise, Vampire, Blind, Traitor</ImmuneStatus>
+	  <StartingStatus>None</StartingStatus>
+	  <AbsorbElements>None</AbsorbElements>
+	  <NullifyElements>None</NullifyElements>
+	  <HalveElements>None</HalveElements>
+	  <WeakElements>None</WeakElements>
+	  <MonsterPortrait>0</MonsterPortrait>
+	  <MonsterPalette>0</MonsterPalette>
+	  <MonsterGraphic>0</MonsterGraphic>
+	</Job>
   </Entries>
 </JobTable>
